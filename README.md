@@ -259,7 +259,7 @@ bitnet.cpp achieves speedups of **1.37x** to **5.07x** on ARM CPUs, with larger 
 
 1. Clone the repo
 ```bash
-git clone --recursive https://github.com/microsoft/BitNet.git
+git clone https://github.com/JuanCarlos0511/BitNet.git
 cd BitNet
 ```
 2. Install the dependencies
