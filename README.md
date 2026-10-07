@@ -1,3 +1,5 @@
+> **Independent copy.** This repository is based on [microsoft/BitNet](https://github.com/microsoft/BitNet) at commit `0b341e5` and includes the [llama.cpp BitNet fork](https://github.com/isHuangXin/llama.cpp) source from commit `390c307752ab78fd8189f359d6954c9ba1be74af` directly under `3rdparty/llama.cpp`. The local BitNet feed-forward graph uses `LLM_FFN_RELU_SQR` in `3rdparty/llama.cpp/src/models/bitnet.cpp`. Downloaded GGUF models and compiled binaries are not included. On Windows, after building and placing `ggml-model-i2_s.gguf` in `models/BitNet-b1.58-2B-4T/`, run `run-bitnet.cmd` (4096-token context, up to 256 generated tokens).
+
 <div align="center">
 
 # bitnet.cpp

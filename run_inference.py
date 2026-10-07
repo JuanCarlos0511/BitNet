@@ -18,7 +18,7 @@ def run_inference():
     if platform.system() == "Windows":
         main_path = os.path.join(build_dir, "bin", "Release", "llama-cli.exe")
         if not os.path.exists(main_path):
-            main_path = os.path.join(build_dir, "bin", "llama-cli")
+            main_path = os.path.join(build_dir, "bin", "llama-cli.exe")
     else:
         main_path = os.path.join(build_dir, "bin", "llama-cli")
     command = [

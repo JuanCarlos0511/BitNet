@@ -39,6 +39,7 @@ gpu/checkpoints/*
 # Python
 
 /.venv
+/.tooling/
 __pycache__/
 */poetry.lock
 poetry.toml
